@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://www.gstatic.com/localfeed/local_feed.xsd">
+    <language>en</language>
+
+    <!--cinnamon hotels-->
+    <listing>
+        <id>Cinnamon_Grand_Colombo</id>
+        <name>Cinnamon Grand Colombo</name>
+        <address format="simple">
+            <component name="addr1">77 Galle Rd</component>
+            <component name="addr2"></component>
+            <component name="city">Colombo</component>
+            <component name="province">Western</component>
+            <component name="postal_code">03</component>
+        </address>
+        <country>LK</country>
+        <latitude>6.917879</latitude>
+        <longitude>79.848477</longitude>
+        <phone type="main">+94 112 437 437</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Lakeside_Colombo</id>
+        <name>Cinnamon Lakeside Colombo</name>
+        <address format="simple">
+            <component name="addr1">115 Sir Chittampalam A Gardiner Mawatha</component>
+            <component name="addr2"></component>
+            <component name="city">Colombo</component>
+            <component name="province">Western</component>
+            <component name="postal_code">02</component>
+        </address>
+        <country>LK</country>
+        <latitude>6.9292</latitude>
+        <longitude>79.8495</longitude>
+        <phone type="main">+94 112 491 000</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Bey_Beruwala</id>
+        <name>Cinnamon Bey Beruwala</name>
+        <address format="simple">
+            <component name="addr1">Moragolla, Beruwala</component>
+            <component name="addr2"></component>
+            <component name="city">Beruwala</component>
+            <component name="province">Western</component>
+            <component name="postal_code"></component>
+        </address>
+        <country>LK</country>
+        <latitude>6.4522247</latitude>
+        <longitude>79.9790679</longitude>
+        <phone type="main">+94 342 297 000</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Lodge_Habarana</id>
+        <name>Cinnamon Lodge Habarana</name>
+        <address format="simple">
+            <component name="addr1">Habarana Roundabout</component>
+            <component name="addr2"></component>
+            <component name="city">Habarana</component>
+            <component name="province">Central</component>
+            <component name="postal_code">02 50150</component>
+        </address>
+        <country>LK</country>
+        <latitude>8.0345705</latitude>
+        <longitude>80.7488230</longitude>
+        <phone type="main">+94 662 270 011</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Wild_Yala</id>
+        <name>Cinnamon Wild Yala</name>
+        <address format="simple">
+            <component name="addr1">Cinnamon Wild Yala</component>
+            <component name="addr2">Palatupana</component>
+            <component name="city">Palatupana</component>
+            <component name="province">Southern</component>
+            <component name="postal_code"></component>
+        </address>
+        <country>LK</country>
+        <latitude>6.2596139</latitude>
+        <longitude>81.4043372</longitude>
+        <phone type="main">+94 112 306 600</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Citadel_Kandy</id>
+        <name>Cinnamon Citadel Kandy</name>
+        <address format="simple">
+            <component name="addr1">Srimath Kudarathwatta Mawatha</component>
+            <component name="addr2"></component>
+            <component name="city">Kandy</component>
+            <component name="province">Central</component>
+            <component name="postal_code">20000</component>
+        </address>
+        <country>LK</country>
+        <latitude>7.3057207</latitude>
+        <longitude>80.6239736</longitude>
+        <phone type="main">+94 812 234 365</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Hakuraa_Huraa_Maldives</id>
+        <name>Cinnamon Hakuraa Huraa Maldives</name>
+        <address format="simple">
+            <component name="addr1">Cinnamon Hakuraa Huraa Maldives, Meemu Atoll</component>
+            <component name="addr2">Hakuraa Huraa</component>
+            <component name="city">Kandy</component>
+            <component name="province">Central</component>
+            <component name="postal_code">20252</component>
+        </address>
+        <country>MV</country>
+        <latitude>2.853667</latitude>
+        <longitude>73.5392740</longitude>
+        <phone type="main">+960 672 0014</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Dhonveli_Maldives</id>
+        <name>Cinnamon Dhonveli Maldives</name>
+        <address format="simple">
+            <component name="addr1">Cinnamon Dhonveli Maldives, Male North Harbour</component>
+            <component name="addr2">Boduthakurufaanu Magu</component>
+            <component name="city">Male</component>
+            <component name="province"></component>
+            <component name="postal_code"></component>
+        </address>
+        <country>MV</country>
+        <latitude>4.3178420</latitude>
+        <longitude>73.5917330</longitude>
+        <phone type="main">+960 664 0055</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Hikka_Tranz</id>
+        <name>Hikka Tranz By Cinnamon</name>
+        <address format="simple">
+            <component name="addr1">Galle Road</component>
+            <component name="addr2">Hikkaduwa</component>
+            <component name="city">Hikkuduwa</component>
+            <component name="province"></component>
+            <component name="postal_code"></component>
+        </address>
+        <country>LK</country>
+        <latitude>6.1313050</latitude>
+        <longitude>80.100770</longitude>
+        <phone type="main">+94 912 277 188</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Habarana_Village</id>
+        <name>Habarana Village By Cinnamon</name>
+        <address format="simple">
+            <component name="addr1">Habarana</component>
+            <component name="addr2">Habarane</component>
+            <component name="city">Habarane</component>
+            <component name="province">North Central</component>
+            <component name="postal_code"></component>
+        </address>
+        <country>LK</country>
+        <latitude>8.0365489</latitude>
+        <longitude>80.74991</longitude>
+        <phone type="main">+94 662 270 047</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Trinco_Blu</id>
+        <name>Trinco Blu By Cinnamon</name>
+        <address format="simple">
+            <component name="addr1">Uppuveli</component>
+            <component name="addr2">Trincomalee</component>
+            <component name="city">Habarane</component>
+            <component name="province">Eastern</component>
+            <component name="postal_code"></component>
+        </address>
+        <country>LK</country>
+        <latitude>8.61767</latitude>
+        <longitude>81.217570</longitude>
+        <phone type="main">+94 262 222 307</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Ellaidhoo_Maldives</id>
+        <name>Ellaidhoo Maldives By Cinnamon</name>
+        <address format="simple">
+            <component name="addr1">Ellaidhoo Maldives By Cinnamon, Ellaidhoo</component>
+            <component name="addr2">Alifu Atoll</component>
+            <component name="city">Ellaidhoo</component>
+            <component name="province"></component>
+            <component name="postal_code">20252</component>
+        </address>
+        <country>MV</country>
+        <latitude>4.0061020</latitude>
+        <longitude>72.949150</longitude>
+        <phone type="main">+960 666 0669</phone>
+    </listing>
+    <listing>
+        <id>Cinnamon_Red_Colombo</id>
+        <name>Cinnamon Red Colombo</name>
+        <address format="simple">
+            <component name="addr1">59 Ananda Coomaraswamy Mawatha</component>
+            <component name="addr2">Colombo</component>
+            <component name="city">Colombo</component>
+            <component name="province">Western</component>
+            <component name="postal_code">03 00700</component>
+        </address>
+        <country>LK</country>
+        <latitude>6.9121140</latitude>
+        <longitude>79.8552870</longitude>
+        <phone type="main">+94 112 145 145</phone>
+    </listing>
+</listings>

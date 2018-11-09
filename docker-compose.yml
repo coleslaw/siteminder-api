@@ -1,0 +1,29 @@
+siteminder_tomcat:
+  build: ./docker/tomcat
+  container_name: siteminder_tomcat
+  env_file:
+     - ./.env  
+  volumes:
+    - "${LOCAL_API_WAR_DIR_PATH}:${TARGET_DOCKER_TOMCAT_API_WAR_PATH}"
+    - "${LOCAL_SAAS_WAR_DIR_PATH}:${TARGET_DOCKER_TOMCAT_SAAS_WAR_PATH}"
+  links:
+    - siteminder_mysql:localhost
+  ports:
+    - 8080:8080
+    - 8787:8787
+  environment:
+    - JAVA_OPTS=-Xms128m -Xmx1024m -XX:MaxPermSize=256m -agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n -DdeployProfile=${DEPLOY_PROFILE}
+
+siteminder_mysql:
+  build: ./docker/mysql
+  container_name: siteminder_mysql
+  env_file:
+     - ./.env    
+  ports:
+    - 3306:3306  
+  environment:
+    MYSQL_ALLOW_EMPTY_PASSWORD: 1
+    MYSQL_ROOT_PASSWORD: ${MYSQL_DB_ROOT_PWD}
+    MYSQL_DATABASE: ${MYSQL_BACKEND_DB_NAME}
+    MYSQL_USER: ${MYSQL_DB_USER}
+    MYSQL_PASSWORD: ${MYSQL_DB_PWD}

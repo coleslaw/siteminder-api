@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://www.gstatic.com/localfeed/local_feed.xsd">
+    <language>en</language>
+
+    <listing>
+        <id>COUNTY</id>
+        <name>The County Hotel</name>
+        <address format="simple">
+            <component name="addr1">8-11 Upper Woburn Place</component>
+            <component name="addr2">London</component>
+            <component name="city">London</component>
+            <component name="province">Greater London</component>
+            <component name="postal_code">WC1H 0JW</component>
+        </address>
+        <country>GB</country>
+        <latitude>51.526391</latitude>
+        <longitude>-0.129519</longitude>
+        <phone type="main">+44 (0)20 7387 5544</phone>
+    </listing>
+    <listing>
+        <id>TAVIS</id>
+        <name>The Tavistock Hotel</name>
+        <address format="simple">
+            <component name="addr1">48-55 Tavistock Square</component>
+            <component name="addr2">London</component>
+            <component name="city">London</component>
+            <component name="province">Greater London</component>
+            <component name="postal_code">WC1H 9EU</component>
+        </address>
+        <country>GB</country>
+        <latitude>51.524202</latitude>
+        <longitude>-0.128161</longitude>
+        <phone type="main">+44 (0)20 7636 8383</phone>
+    </listing>
+    <listing>
+        <id>ROYAL</id>
+        <name>The Royal National Hotel</name>
+        <address format="simple">
+            <component name="addr1">38-51 Bedford Way</component>
+            <component name="addr2">London</component>
+            <component name="city">London</component>
+            <component name="province">Greater London</component>
+            <component name="postal_code">WC1H 0DG</component>
+        </address>
+        <country>GB</country>
+        <latitude>51.523693</latitude>
+        <longitude>-0.127110</longitude>
+        <phone type="main">+44 (0)20 7637 2488</phone>
+    </listing>
+    <listing>
+        <id>MORTON</id>
+        <name>The Morton Hotel</name>
+        <address format="simple">
+            <component name="addr1">2 Woburn Place</component>
+            <component name="addr2">London</component>
+            <component name="city">London</component>
+            <component name="province">Greater London</component>
+            <component name="postal_code">WC1H 0LH</component>
+        </address>
+        <country>GB</country>
+        <latitude>51.523339</latitude>
+        <longitude>-0.125576</longitude>
+        <phone type="main">+44 (0)20 7692 5600</phone>
+    </listing>
+    <listing>
+        <id>PRES</id>
+        <name>The President Hotel</name>
+        <address format="simple">
+            <component name="addr1">56-60 Guilford Street</component>
+            <component name="addr2">London</component>
+            <component name="city">London</component>
+            <component name="province">Greater London</component>
+            <component name="postal_code">WC1N 1DB</component>
+        </address>
+        <country>GB</country>
+        <latitude>51.522278</latitude>
+        <longitude>-0.124076</longitude>
+        <phone type="main">+44 (0)20 7837 8844</phone>
+    </listing>
+    <listing>
+        <id>IMPERIAL</id>
+        <name>The Imperial Hotel</name>
+        <address format="simple">
+            <component name="addr1">61-66 Russell Square</component>
+            <component name="addr2">London</component>
+            <component name="city">London</component>
+            <component name="province">Greater London</component>
+            <component name="postal_code">WC1B 5BB</component>
+        </address>
+        <country>GB</country>
+        <latitude>51.521874</latitude>
+        <longitude>-0.123843</longitude>
+        <phone type="main">+44 (0)20 7837 3655</phone>
+    </listing>
+    <listing>
+        <id>BEDFORD</id>
+        <name>The Bedford Hotel</name>
+        <address format="simple">
+            <component name="addr1">83-95 Southampton Row</component>
+            <component name="addr2">London</component>
+            <component name="city">London</component>
+            <component name="province">Greater London</component>
+            <component name="postal_code">WC1B 4HD</component>
+        </address>
+        <country>GB</country>
+        <latitude>51.520736</latitude>
+        <longitude>-0.123571</longitude>
+        <phone type="main">+44 (0)20 7636 7822</phone>
+    </listing>
+</listings>

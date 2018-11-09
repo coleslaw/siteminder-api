@@ -1,0 +1,26 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd"
+         updateCheck="true"
+         monitoring="autodetect"
+         dynamicConfig="true">
+
+    <diskStore path="java.io.tmpdir" />
+<!--
+15min idle for an element before it expires
+06H live for an element before it expires
+-->
+    <cache name="AvailabilityMetaCache"
+           maxEntriesLocalHeap="10000"
+           maxEntriesLocalDisk="1000"
+           eternal="false"
+           diskSpoolBufferSizeMB="100"
+           timeToIdleSeconds="900" timeToLiveSeconds="21600"
+           memoryStoreEvictionPolicy="LFU"
+           transactionalMode="off">
+
+        <persistence strategy="localTempSwap" />
+    </cache>
+    
+  
+
+</ehcache>
